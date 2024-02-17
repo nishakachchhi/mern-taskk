@@ -1,0 +1,22 @@
+{
+  "name": "nisha-mern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon api/index.js",
+    "start": "node api/index.js"
+  },
+  "author": "nisha kachchhi",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "esm": "^3.2.25",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.3"
+  }
+}
